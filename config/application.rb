@@ -41,5 +41,6 @@ module SampleApp
     config.filter_parameters += [:password]
     
     include Rake::DSL
+    config.filter_parameters += [:password]
   end
 end
